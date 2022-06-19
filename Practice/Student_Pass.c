@@ -15,5 +15,8 @@ int main(){
         printf("Wrong marks");
     }
 
+    // m < 30 ? printf("fail") : printf("Pass");
+
+
     return 0;
 }
