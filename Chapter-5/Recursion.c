@@ -1,8 +1,19 @@
 #include<stdio.h>
-#include<math.h>
+
+void Hello(int count){
+    // Base Case
+    if(count == 0){
+        return;
+    }
+
+    printf("Hello world \n");
+    Hello(count - 1);
+
+}
 
 int main(){
 
-    return 0;
+    Hello(5);
 
+    return 0;
 }
