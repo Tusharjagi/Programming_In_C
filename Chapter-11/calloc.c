@@ -9,7 +9,7 @@ int main(){
     ptr[1] = 1;
     ptr[2] = 7;
     ptr[3];
-    ptr[4] ;
+    ptr[4];
 
     for(int i = 0; i < 5;i++){
         printf("%d\n",ptr[i]);
